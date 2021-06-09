@@ -27,16 +27,25 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v4.4.99',
-    'version' => '4.4.99.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'symfony/website-skeleton',
+    'reference' => '949ec1bf3f9abd9ab0e0b91e410daaf67fc3dbf6',
+    'name' => '__root__',
   ),
   'versions' => 
   array (
+    '__root__' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '949ec1bf3f9abd9ab0e0b91e410daaf67fc3dbf6',
+    ),
     'composer/package-versions-deprecated' => 
     array (
       'pretty_version' => '1.11.99.2',
@@ -256,6 +265,15 @@ private static $installed = array (
       array (
         0 => '1.10.2',
       ),
+    ),
+    'nelmio/cors-bundle' => 
+    array (
+      'pretty_version' => '2.1.1',
+      'version' => '2.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0b964b665016dfb61dd0fd2bb8c24afb1ae45a93',
     ),
     'nikic/php-parser' => 
     array (
@@ -484,8 +502,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache-implementation' => 
@@ -1311,15 +1329,6 @@ private static $installed = array (
       array (
       ),
       'reference' => 'befd3aaef9fe453d87da59fc68773631406ad447',
-    ),
-    'symfony/website-skeleton' => 
-    array (
-      'pretty_version' => 'v4.4.99',
-      'version' => '4.4.99.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => NULL,
     ),
     'symfony/yaml' => 
     array (
